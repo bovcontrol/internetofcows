@@ -42,7 +42,6 @@ Copy and past to your terminal:
 
 ```bash
 git clone https://github.com/bovcontrol/internetofcows.git
-cd internetofcows
 ```
 
 ### Enter in the project directory:
