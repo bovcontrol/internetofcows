@@ -11,7 +11,7 @@ Instructions: http://docs.azk.io/en/installation/
 ### Install Atom (code editor):
 Download: https://atom.io/
 
-### Clone project:
+### Clone project in your terminal:
 ```bash
 $ git clone https://github.com/bovcontrol/internetofcows.git
 $ cd internetofcows
