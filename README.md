@@ -105,7 +105,7 @@ curl http://ioc.dev.azk.io/status
 
 Now the example temperature data will be uploaded to the server and the referred animal will be updated with this data.
 
-To understand how they works, take a look at the main project file by copy and past to your terminal:
+To understand how it works, take a look at the main project file by copying and pasting to your terminal:
 
 ```shell
 atom app.js
