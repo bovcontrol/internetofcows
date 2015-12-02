@@ -37,6 +37,14 @@ If you use Linux OS (Ubuntu of similar), please read this instructions to instal
 ### Install [Atom](https://atom.io/) (code editor):
 Download: https://atom.io/
 
+### Enter in your Desktop
+Copy and past to your terminal:
+
+```bash
+cd ~/Desktop
+```
+
+
 ### Clone project in your terminal:
 Copy and past to your terminal:
 
