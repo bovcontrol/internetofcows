@@ -21,8 +21,8 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 
 Some important thinks about homebrew installation:
 
-- XCode requirements take a while to install, please be patient
-- After XCode install, press RETURN in the terminal to continue the Brew installation
+- XCode requirements take a while to install, please be patient.
+- After XCode install, press RETURN in the terminal to continue the Brew installation.
 - Brew will ask your user password. When you type that will not appears in the screen for secure reason. Just type and press RETURN.
 
 ### Install [azk](http://docs.azk.io/en/installation/) in your machine:
@@ -45,6 +45,13 @@ git clone https://github.com/bovcontrol/internetofcows.git
 cd internetofcows
 ```
 
+### Enter in the project directory:
+Copy and past to your terminal:
+
+```bash
+cd internetofcows
+```
+
 ## CONFIGURATION
 
 Edit the server environment data:
@@ -60,8 +67,19 @@ BOVCONTROL_TOKEN: "YOUR-TOKEN-HERE"
 
 ## STARTING SERVER
 
+Copy and past each command to your terminal:
+
+### To start AZK Server
 ```shell
 azk start
+```
+
+### To START your Internet of Cows client
+```shell
 curl http://ioc.dev.azk.io/start
+```
+
+### To get the STATUS of your Internet of Cows client
+```shell
 curl http://ioc.dev.azk.io/status
 ```
