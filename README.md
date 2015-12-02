@@ -1,5 +1,8 @@
 ↓↓↓↓ READ THIS TEXT BELOW FIRST    ↓↓↓↓
 
+
+![Internet of Cows](https://raw.github.com/bovcontrol/internetofcows/master/logo.png "Internet of Cows")
+
 This is the demo project to show internet of cows BovControl's API. This example shows the usage of the Wearable API. The Wearable API's purpose is to track a single animal: one device -> one animal.
 
 For more info about the project, take a look in the [internet of cows project page](http://internetofcows.org).
@@ -101,3 +104,9 @@ curl http://ioc.dev.azk.io/status
 ```
 
 Now the example temperature data will be uploaded to the server and the referred animal will be updated with this data.
+
+To understand how they works, take a look at the main project file by copy and past to your terminal:
+
+```shell
+atom app.js
+```

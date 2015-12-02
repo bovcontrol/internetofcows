@@ -39,24 +39,24 @@ var ioc_data = {
 
 //region Data status
 
-var counter  = 1,     //How many times data is collected?
-    interval = 10,    //What will be the interval between each data collection (in seconds)?
+var counter  = 1,     //Count how many times the data was collected.
+    interval = 10,    //Define the interval between each data collection (in seconds).
     loop_id  = 1,     //Interval function usage: to be able to stop data collection.
-    toggle   = false; //Interval function usage: to device know the state of collection (on or off).
+    toggle   = false; //Interval function usage: to the device to know the state of the collection (on or off).
 
 //endregion
 
 //region Core functions
 
 /**
- * Generates a Random temperature
+ * Generates a Random temperature between 30 to 39 celsius degrees
  */
 function randomTemp() {
     return Number.parseInt("3"+(Math.random()*10));
 }
 
 /**
- * Start the data-collection
+ * Starts the data-collection
  */
 function start() {
     if(toggle) {
@@ -75,18 +75,18 @@ function start() {
 }
 
 /**
- * Stop the data-collection
+ * Stops the data-collection
  */
 function stop() {
     if(!toggle) {
         return;
     }
-    clearInterval(loop_id);
     toggle = false;
+    clearInterval(loop_id);
 }
 
 /**
- * Status the data-collection
+ * Gets the status of the data-collection
  */
 function status() {
     return {on: toggle, counter: counter, temperature: ioc_data.body.data.temperature, interval: interval};
@@ -97,7 +97,7 @@ function status() {
 //region API routes
 
 /**
- * Activate the data-collection and return the actual status
+ * Activates the data-collection and returns the current status
  * URL: http://ioc.dev.azk.io/on
  */
 api.get('/on', function (req, res) {
@@ -106,7 +106,7 @@ api.get('/on', function (req, res) {
 });
 
 /**
- * Deactivate the data-collection and return the actual status
+ * Deactivates the data-collection and returns the current status
  * URL: http://ioc.dev.azk.io/off
  */
 api.get('/off', function (req, res) {
@@ -115,7 +115,7 @@ api.get('/off', function (req, res) {
 });
 
 /**
- * Getting the actual status
+ * Gets the current status
  * URL: http://ioc.dev.azk.io/status
  */
 api.get('/status', function (req, res) {
@@ -123,7 +123,7 @@ api.get('/status', function (req, res) {
 });
 
 /**
- * Getting info about API Routes and the status
+ * Gets the info about the API's Routes and the status
  * URL: http://ioc.dev.azk.io/
  */
 api.get('/', function (req, res) {
