@@ -63,16 +63,20 @@ cd internetofcows
 
 ## CONFIGURATION
 
-Edit the server environment data:
+Edit the server environment data.
+Copy and past to your terminal:
+
 ```shell
 atom Azkfile.js
 ```
 
-Replace access token with your own:
+Replace access token with your own: (BovControl will provide this to you)
 
 ```
 BOVCONTROL_TOKEN: "YOUR-TOKEN-HERE"
 ```
+
+Save the document by pressing pressing ``Command key (⌘) + S``
 
 ## STARTING SERVER
 
@@ -83,6 +87,11 @@ Copy and past each command to your terminal:
 azk start
 ```
 
+Some important thinks about first AZK initializing:
+
+- AZK first starting will requirements a while to download the requirements, please be patient.
+- When AZK ask for IP address just press RETURN.
+
 ### To START your Internet of Cows client
 ```shell
 curl http://ioc.dev.azk.io/start
@@ -92,3 +101,5 @@ curl http://ioc.dev.azk.io/start
 ```shell
 curl http://ioc.dev.azk.io/status
 ```
+
+Now the example temperature data will be uploaded to the server and the referred animal will be updated with this data.
