@@ -49,7 +49,7 @@ var counter  = 1,     //How many times data is collected?
 //region Core functions
 
 /**
- * Generates a Rondom temperture
+ * Generates a Random temperature
  */
 function randomTemp() {
     return Number.parseInt("3"+(Math.random()*10));
@@ -97,8 +97,8 @@ function status() {
 //region API routes
 
 /**
- * Activate the data-collection
- * URL: http://ioc.azk.io/on
+ * Activate the data-collection and return the actual status
+ * URL: http://ioc.dev.azk.io/on
  */
 api.get('/on', function (req, res) {
     start();
@@ -106,8 +106,8 @@ api.get('/on', function (req, res) {
 });
 
 /**
- * Deactivate the data-collection
- * URL: http://ioc.azk.io/off
+ * Deactivate the data-collection and return the actual status
+ * URL: http://ioc.dev.azk.io/off
  */
 api.get('/off', function (req, res) {
     stop();
@@ -116,7 +116,7 @@ api.get('/off', function (req, res) {
 
 /**
  * Getting the actual status
- * URL: http://ioc.azk.io/status
+ * URL: http://ioc.dev.azk.io/status
  */
 api.get('/status', function (req, res) {
     res.send(status());
@@ -124,7 +124,7 @@ api.get('/status', function (req, res) {
 
 /**
  * Getting info about API Routes and the status
- * URL: http://ioc.azk.io/
+ * URL: http://ioc.dev.azk.io/
  */
 api.get('/', function (req, res) {
     res.send({methods:['/on','/off','/status'],status:status()});

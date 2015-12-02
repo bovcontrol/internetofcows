@@ -1,13 +1,13 @@
 ↓↓↓↓ READ THIS TEXT BELOW FIRST    ↓↓↓↓
 
-This is the demo project for demonstrate internet of cows BovControl's API. This example take usage of Wearable API.
+This is the demo project to show internet of cows BovControl's API. This example shows the usage of the Wearable API. The Wearable API's purpose is to track a single animal: one device -> one animal.
 
 For more info about the project, take a look in the [internet of cows project page](http://internetofcows.org).
 
 
 ## REQUIREMENTS
 ### Access your terminal
-If you use Mac press ``Command key (⌘) + SPACE KEY``, type ``terminal`` and then press RETURN KEY.
+If you use a Mac: press ``Command key (⌘) + SPACE KEY``, type ``terminal`` and then press RETURN KEY.
 
 ### Install [VirtualBox](https://www.virtualbox.org)
 Download: https://www.virtualbox.org/wiki/Downloads
@@ -19,11 +19,11 @@ Copy and past to your terminal:
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
-Some important thinks about homebrew installation:
+Some important steps or things about homebrew installation:
 
 - XCode requirements take a while to install, please be patient.
-- After XCode install, press RETURN in the terminal to continue the Brew installation.
-- Brew will ask your user password. When you type that will not appears in the screen for secure reason. Just type and press RETURN.
+- After XCode installation, press ``RETURN`` in the terminal to continue the Brew installation.
+- Brew will ask your user password. When you type it, the password will not be appear on the screen for security reasons. Just type and press ``RETURN``.
 
 ### Install [azk](http://docs.azk.io/en/installation/) in your machine:
 Copy and past to your terminal:
@@ -32,7 +32,7 @@ Copy and past to your terminal:
 curl -Ls http://azk.io/install.sh | bash
 ```
 
-If you use Linux OS (Ubuntu of similar), please read this instructions to install AZK: http://docs.azk.io/en/installation/
+If you use Linux OS (Ubuntu or similar), please read these instructions to install AZK: http://docs.azk.io/en/installation/
 
 ### Install [Atom](https://atom.io/) (code editor):
 Download: https://atom.io/
@@ -44,15 +44,14 @@ Copy and past to your terminal:
 cd ~/Desktop
 ```
 
-
-### Clone project in your terminal:
+### Clone the project into your machine:
 Copy and past to your terminal:
 
 ```bash
 git clone https://github.com/bovcontrol/internetofcows.git
 ```
 
-Now you could to see a folder called ```internetofcows``` in your Desktop with all project files.
+Now you should see a folder called ```internetofcows``` in your Desktop with all the project files.
 
 ### Enter in the project directory:
 Copy and past to your terminal:
@@ -62,7 +61,6 @@ cd internetofcows
 ```
 
 ## CONFIGURATION
-
 Edit the server environment data.
 Copy and past to your terminal:
 
@@ -70,27 +68,27 @@ Copy and past to your terminal:
 atom Azkfile.js
 ```
 
-Replace access token with your own: (BovControl will provide this to you)
+Replace the access token with your own: (BovControl will provide this to you)
 
 ```
 BOVCONTROL_TOKEN: "YOUR-TOKEN-HERE"
 ```
 
-Save the document by pressing pressing ``Command key (⌘) + S``
+Save the document using ``Command key (⌘) + S``
 
 ## STARTING SERVER
 
-Copy and past each command to your terminal:
+Copy and past each command into your terminal:
 
 ### To start AZK Server
 ```shell
 azk start
 ```
 
-Some important thinks about first AZK initializing:
+Some important things about running AZK for the first time:
 
 - AZK first starting will requirements a while to download the requirements, please be patient.
-- When AZK ask for IP address just press RETURN.
+- When AZK asks for a IP address just press ``RETURN``.
 
 ### To START your Internet of Cows client
 ```shell
