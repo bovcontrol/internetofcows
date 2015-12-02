@@ -10,12 +10,12 @@ For more info about the project, take a look in the [internet of cows project pa
 
 ## REQUIREMENTS
 ### Access your terminal
-If you use a Mac: press ``Command key (⌘) + SPACE KEY``, type ``terminal`` and then press RETURN KEY.
+If you use a Mac: press ``COMMAND key (⌘) + SPACE key``, type ``terminal`` and then press ``RETURN key``.
 
-### Install [VirtualBox](https://www.virtualbox.org)
+### Install [VirtualBox](https://www.virtualbox.org):
 Download: https://www.virtualbox.org/wiki/Downloads
 
-### Install [homebrew](http://brew.sh) (for Mac Users)
+### Install [homebrew](http://brew.sh) (for Mac Users):
 Copy and past to your terminal:
 
 ```bash
@@ -40,7 +40,7 @@ If you use Linux OS (Ubuntu or similar), please read these instructions to insta
 ### Install [Atom](https://atom.io/) (code editor):
 Download: https://atom.io/
 
-### Enter in your Desktop
+### Enter in your Desktop:
 Copy and past to your terminal:
 
 ```bash
@@ -83,7 +83,7 @@ Save the document using ``Command key (⌘) + S``
 
 Copy and past each command into your terminal:
 
-### To start AZK Server
+### To start AZK Server:
 ```shell
 azk start
 ```
@@ -93,12 +93,12 @@ Some important things about running AZK for the first time:
 - AZK first starting will requirements a while to download the requirements, please be patient.
 - When AZK asks for a IP address just press ``RETURN``.
 
-### To START your Internet of Cows client
+### To START your Internet of Cows client:
 ```shell
 curl http://ioc.dev.azk.io/start
 ```
 
-### To get the STATUS of your Internet of Cows client
+### To get the STATUS of your Internet of Cows client:
 ```shell
 curl http://ioc.dev.azk.io/status
 ```
