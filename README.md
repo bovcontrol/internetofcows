@@ -34,6 +34,6 @@ BOVCONTROL_TOKEN: "YOUR-TOKEN-HERE"
 
 ```shell
 $ azk start
-$ curl http://ioc.azk.io/start
-$ curl http://ioc.azk.io/status
+$ curl http://ioc.dev.azk.io/start
+$ curl http://ioc.dev.azk.io/status
 ```
