@@ -52,6 +52,8 @@ Copy and past to your terminal:
 git clone https://github.com/bovcontrol/internetofcows.git
 ```
 
+Now you could to see a folder called ```internetofcows``` in your Desktop with all project files.
+
 ### Enter in the project directory:
 Copy and past to your terminal:
 
