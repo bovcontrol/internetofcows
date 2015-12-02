@@ -13,14 +13,20 @@ If you use Mac press ``Command key (⌘) + SPACE KEY``, type ``terminal`` and th
 Download: https://www.virtualbox.org/wiki/Downloads
 
 ### Install homebrew (for Mac Users)
-Copy and past to user terminal:
+Copy and past to your terminal:
 
 ```bash
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
 ### Install [azk](http://docs.azk.io/en/installation/) in your machine:
-Instructions: http://docs.azk.io/en/installation/
+Copy and past to your terminal:
+
+```bash
+curl -Ls http://azk.io/install.sh | bash
+```
+
+If you use Linux OS (Ubuntu of similar), please read this instructions to install AZK: http://docs.azk.io/en/installation/
 
 ### Install Atom (code editor):
 Download: https://atom.io/
