@@ -7,7 +7,17 @@ For more info about the project, take a look in the [internet of cows project pa
 
 ## REQUIREMENTS
 ### Access your terminal
-On Mac press ``Command key (⌘) + SPACE KEY``, type ``terminal`` and then press RETURN KEY.
+If you use Mac press ``Command key (⌘) + SPACE KEY``, type ``terminal`` and then press RETURN KEY.
+
+### Install VirtualBox
+Download: https://www.virtualbox.org/wiki/Downloads
+
+### Install homebrew (for Mac Users)
+Copy and past to user terminal:
+
+```bash
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
 
 ### Install [azk](http://docs.azk.io/en/installation/) in your machine:
 Instructions: http://docs.azk.io/en/installation/
