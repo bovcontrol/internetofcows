@@ -19,6 +19,12 @@ Copy and past to your terminal:
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
+Some important thinks about homebrew installation:
+
+- XCode requirements take a while to install, please be patient
+- After XCode install, press RETURN in the terminal to continue the Brew installation
+- Brew will ask your user password. When you type that will not appears in the screen for secure reason. Just type and press RETURN.
+
 ### Install [azk](http://docs.azk.io/en/installation/) in your machine:
 Copy and past to your terminal:
 
