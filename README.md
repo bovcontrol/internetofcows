@@ -10,6 +10,8 @@ For more info about the project, take a look in the [internet of cows project pa
 
 ## REQUIREMENTS
 ### Access your terminal
+
+[![Join the chat at https://gitter.im/bovcontrol/internetofcows](https://badges.gitter.im/bovcontrol/internetofcows.svg)](https://gitter.im/bovcontrol/internetofcows?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 If you use a Mac: press ``COMMAND key (⌘) + SPACE key``, type ``terminal`` and then press ``RETURN key``.
 
 ### Install [VirtualBox](https://www.virtualbox.org):
